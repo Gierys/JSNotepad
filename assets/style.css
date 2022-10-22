@@ -1,0 +1,71 @@
+body{
+    background-image: url("../images/bg_dark.png");
+    background-size: cover;
+}
+
+#flexContainer{
+    width: 95vw;
+    height:46vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#textAreaContainer{
+    width: 85vw;
+    height: 45vw;
+    margin-top: 1vw;
+}
+
+#mainTextArea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    background-color: rgb(33, 34, 37);
+    color: white;
+    font-size: 2vw;
+}
+
+#ButtonContainer{
+    text-align: center;
+}
+#fileSelectionContainer{
+    width: 15vw;
+    margin-left: 42.5vw;
+    margin-right: 42.5vw;
+    margin-top: 0vw;
+    text-align: justify;
+}
+
+#countersContainer{
+    width: 10vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    font-family: Verdana;
+    color: deepskyblue;
+    font-size: 1.3vw;
+    display: inline;
+    justify-content: center;
+    align-self: center;
+}
+
+#lineCount{
+    margin-left: 5vw;
+    display: inline;
+}
+
+#fileSelector{
+color: deepskyblue;
+margin-top: 1vw;
+margin-bottom: 0.5vw;
+}
+
+button{
+    width: 14vw;
+    height: 3%;
+    font-family: Verdana;
+    background-color: rgb(33, 34, 37);
+    color: deepskyblue;
+    font-size: 1vw;
+    border-radius: 0.6vw;
+}

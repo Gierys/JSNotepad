@@ -1,0 +1,33 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"></meta>
+        <script type="text/javascript" src="assets/FileSaver.js-master/FileSaver.js"></script>
+        <script type="text/javascript" src="assets/script.js"></script>
+        <link rel="stylesheet" href="assets/style.css"></style>
+        <title>JSNotepad</title>
+    </head>
+    <body>
+        <div id="buttonContainer">
+            <button class="btn" onclick="save()">Save as...</button>
+            <button class="btn" onclick="choose_file()">Load file</button>
+            <button class="btn" onclick="new_file()">New file</button>
+            <button class="btn" onclick="dark_mode()">Dark mode</button>
+            <button onclick="light_mode()">Light mode</button>
+            <button onclick="toggle_wrap()">Toggle wrapping</button>
+            <div id="fileSelectionContainer">
+            <div id="buttonCover">
+            <input type="file" accept=".txt" id="fileSelector" style="display: none;"></input>
+            </div>
+            <button style="display: none;" id="fileready" onclick="load()">Wczytaj Plik</button>
+            </div>
+        </div>
+        <div id="flexContainer">
+            <div id="textAreaContainer">
+                <textarea id="mainTextArea" placeholder="Text Goes Here" autofocus></textarea>
+            </div> 
+        </div>
+        <div id="countersContainer">Characters: <b id="charnum"></b>
+            <div id="lineCount">Lines: <b id="linenum"></b></div>
+        </div>
+    </body>
+</html>
