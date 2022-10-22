@@ -27,6 +27,3 @@ Usage
 -----
 
 Simply download the project, and run index.html.
-
-Lisense
--------
